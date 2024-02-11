@@ -1,0 +1,381 @@
+h1.logo {
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    line-height: 1.2;
+    color: white;
+}
+
+img.logo {
+    width: 70px; height: 70px;
+    margin-right: 15px;
+}
+
+div.logo {
+    display: flex;
+}
+
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(107, 36, 12);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    margin-left: 180px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 15px;
+    color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(208, 173, 72);
+}
+
+header a {
+  text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropbtn {
+    color: white;
+    background-color: rgb(107, 36, 12);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(107, 36, 12);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .dropdown-content a:hover {
+    color: rgb(208, 173, 72);
+  }
+
+  div.hero {
+    height: 622px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+img.hero {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section.hero {
+    background: rgb(107, 36, 12);
+    height: 672px;
+    margin-bottom: 100px;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 25%);
+}
+
+div.testohero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  h2.titolo {
+    font-family: 'Spectral', serif;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  h2.frase {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    margin-top: -50px
+  }
+
+  footer ul {
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(107, 36, 12);
+    font-size: 16px;
+    margin-top: 200px;
+}
+
+li.testo {
+    font-weight: bold;
+}
+
+img.footercioccolato{
+    width: 55px; height: 55px;
+    margin-right: 10px;
+}
+
+img.footermodica {
+    width: 48px; height: 54px;
+    margin-right: 10px;
+}
+
+img.footersicilia {
+    width: 59px; height: 50px;
+}
+
+div.loghifooter {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+
+div.container img {
+    object-fit: cover;
+    width: 273px; height: 273px;
+    margin-top: 40px;
+}
+
+div.scoprianche {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    max-width: 917px;
+    margin: auto;
+}
+
+section.scoprianche {
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+div.lineacontesto {
+    position: relative;
+    height: 1px;
+    background-color: rgb(107, 36, 12);
+  }
+
+  div.lineacontesto::after {
+    content: "Scopri anche";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(107, 36, 12);
+    background-color: white;
+    padding: 20px;
+    font-family: 'Spectral', serif;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testosopra {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    white-space: nowrap;
+    margin-top: 40px;
+  }
+
+  section.testo {
+    max-width: 1030px;
+    margin: auto;
+    margin-bottom: 150px;
+  }
+
+  div.testo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+
+  h1.titoli {
+    font-family: 'Spectral', serif;
+    font-size: 30px;
+    color: rgb(107, 36, 12);
+    white-space: nowrap;
+  }
+
+  p.ricetta {
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+    color: rgb(107, 36, 12);
+    margin-top: -15px;
+  }
+
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 489px;
+  }
+
+  p.primo {
+    margin-top: -15px;
+  }
+
+  div a {
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 14px;
+}
+
+div.container a {
+  position: relative;
+  display: block;
+  color: #fff;
+}
+
+div.container a:hover:before {
+  content:"";
+  background-color: rgb(107, 36, 12, 0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  width: 273px;
+  height: 273px;
+  margin-top: 40px;
+}
+
+img.biscottitipici{
+    width: 428px; height: 320px;
+    margin-top: 30px;
+}
+
+img.mpanatigghi {
+    width: 428px; height: 250px;
+    margin-top: 50px;
+}
+
+h1.ingredienti {
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+    color: rgb(107, 36, 12);
+}
+
+ul {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  div.ingredienti {
+    margin-top: 65px;
+    margin-left: 100px;
+  }
+
+  img.ricetta {
+    width: 322px;
+    margin-top: 50px;
+  }
+
+  @media (min-width:400px) and (max-width:900px) {
+    div.testo {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 100px;
+    }
+  
+    div.testo img {
+      margin-top: -50px;
+    }
+  
+    section.testo {
+      max-width: 400px;
+      margin: auto;
+    }
+  
+    div.scoprianche {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  
+    div.testosopra {
+        text-align: center;
+    }
+  
+    h2.titolo {
+        line-height: 1.2;
+        margin-bottom: 60px;
+        white-space: normal;
+    }
+  
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  nav ul {
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 50px;
+      align-items: center;
+      margin-inline: 20px;
+  }
+  
+  footer {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  div.container a:hover:before {
+    background: none;
+  }
+
+  img.ricetta {
+    padding-top: 100px;
+  }
+  } 
