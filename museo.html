@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museo</title>
-    <link rel="stylesheet" href="css/stilemuseo.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap" rel="stylesheet">
@@ -25,7 +25,13 @@
 
     <header>
         <a href="index.html"><div class="logo"><img class="logo" src="immagini/logo.png" alt="">
-        <h1 class="logo">CIOCCOLATO<br>DI MODICA</h1></div></a>
+            <h1 class="logo">CIOCCOLATO<br>DI MODICA</h1></div></a>
+        <input class="checkbox" type="checkbox" name="" id="" />
+        <div class="hamburger-lines">
+          <span class="line line1"></span>
+          <span class="line line2"></span>
+          <span class="line line3"></span>
+        </div>
         <nav>
             <ul>
                 <a href="index.html"><li>HOME</li></a>
@@ -60,7 +66,7 @@
         <section class="testo">
             <div class="testo"><div>
                 <h1 class="titoli">Il museo del cioccolato</h1>
-                <p class="primo">Il cioccolato, simbolo e orgoglio di questa terra, trova la sua<br>massima celebrazione in un museo che ne raccoglie storia e sapori.<br>Inaugurato nel 2014 in un’ala del prestigioso Palazzo della Cultura,<br>offre ai visitatori un itinerario coinvolgente che svela curiosità e<br>aneddoti su questa prelibatezza. </p>
+                <p class="primo">Il cioccolato, simbolo e orgoglio di questa terra, trova la sua massima celebrazione in un museo che ne raccoglie storia e sapori. Inaugurato nel 2014 in un’ala del prestigioso Palazzo della Cultura, offre ai visitatori un itinerario coinvolgente che svela curiosità e aneddoti su questa prelibatezza. </p>
             </div>
                 <img class="museodelcioccolato" src="immagini/museodelcioccolato.jpg" alt="">
          </section>
@@ -68,11 +74,10 @@
          <section class="testo">
             <div class="testo"><div>
                 <h1 class="titoli">La mostra</h1>
-                <p class="primo">Si parte da una interessantissima mostra documentario-<br>bibliografica, intitolata “Il cioccolato di Modica nelle carte dei<br>Grimaldi – 1746/1915”, che raccoglie una vasta quantità di fogli e<br>manoscritti, esposti su trenta pannelli, in cui viene descritta, dall’era<br>precolombiana in poi, la storia del cioccolato e la sua evoluzione,<br>dal chicco alla lavorazione al prodotto finito.<br>
-                    Dalle fonti archivistiche si manifesta soprattutto la generazionale<br>maestria di artigiani che fino ad oggi hanno saputo mantenere i<br>segreti dell’inimitabile cioccolato di Modica, indiscusso protagonista<br>che attesta la presenza di cioccolatieri a Modica sin dal 1746.</p>
-                    <p>In altre due stanze del palazzo sono esposte ventidue sculture di<br>cioccolato, realizzate da scultori e da giovani studenti del Liceo<br>Artistico “Campailla” di Modica.</p>
-                    <p>Non meno importante la miniatura dell’Italia di cioccolato: un<br>grande bassorilievo di circa nove metri, sistemato nel salone più<br>grande, interamente realizzato in cioccolato, dove ogni capoluogo di<br>Regione è evidenziato da sculture rappresentative. </p>
-                    <p>Infine, è possibile osservare i maestri cioccolatieri all’opera in un<br>vero laboratorio dolciario, “u dammusu ro ciucculattaru”, in cui si<br>assiste alle fasi di lavorazioni del cacao che, assieme allo zucchero e<br>spezie varie, si trasforma nelle celebri barrette dal sapore unico. </p>
+                <p class="primo">Si parte da una interessantissima mostra documentario-bibliografica, intitolata “Il cioccolato di Modica nelle carte dei Grimaldi – 1746/1915”, che raccoglie una vasta quantità di fogli e manoscritti, esposti su trenta pannelli, in cui viene descritta, dall’era precolombiana in poi, la storia del cioccolato e la sua evoluzione, dal chicco alla lavorazione al prodotto finito. Dalle fonti archivistiche si manifesta soprattutto la generazionale maestria di artigiani che fino ad oggi hanno saputo mantenere i segreti dell’inimitabile cioccolato di Modica, indiscusso protagonista che attesta la presenza di cioccolatieri a Modica sin dal 1746.</p>
+                    <p>In altre due stanze del palazzo sono esposte ventidue sculture di cioccolato, realizzate da scultori e da giovani studenti del Liceo Artistico “Campailla” di Modica.</p>
+                    <p>Non meno importante la miniatura dell’Italia di cioccolato: un grande bassorilievo di circa nove metri, sistemato nel salone più grande, interamente realizzato in cioccolato, dove ogni capoluogo di Regione è evidenziato da sculture rappresentative. </p>
+                    <p>Infine, è possibile osservare i maestri cioccolatieri all’opera in un vero laboratorio dolciario, “u dammusu ro ciucculattaru”, in cui si assiste alle fasi di lavorazioni del cacao che, assieme allo zucchero e spezie varie, si trasforma nelle celebri barrette dal sapore unico. </p>
                 </div>
                 <div><img class="italia" src="immagini/italia.jpg" alt="">
                 <img class="laboratorio" src="immagini/laboratorio.jpg" alt=""></div>
@@ -92,7 +97,7 @@
                 <strong>ven:</strong> 10:00–14:00, 16:00–19:00<br>
                 <strong>sab:</strong> 10:00–14:00, 16:00–19:00<br>
                 <strong>dom:</strong> 10:00–13:00</p></div>
-                <img class="mappamuseo" src="immagini/mappamuseo.png" alt="">
+                <div class="mappa"><img src="immagini/mappamuseo.png" alt=""></div>
         </div>
         </section>
 
@@ -116,7 +121,7 @@
     </main>
 
     <footer>
-        <ul>
+        <div class="ul"><ul>
             <li>Copyright 2024</li>
             <li class="testo">Tutti i diritti riservati.</li>
         </ul>
@@ -129,12 +134,14 @@
         <ul>
             <li>Policy</li>
             <li class="testo">Privacy Policy  Cookie Policy</li>
-        </ul>
+        </ul></div>
 
-        <div class="loghifooter"><img class="footercioccolato" src="immagini/indicazionegeografica.png" alt="">
-        <img class="footercioccolato" src="immagini/logo.png" alt="">
-        <img class="footermodica" src="immagini/logomodica.png" alt="">
-        <img class="footersicilia" src="immagini/logosicilia.png" alt=""></div>
+        <div class="loghifooter">
+            <div class="footercioccolato"><img src="immagini/indicazionegeografica.png" alt=""></div>
+            <div class="footercioccolato"><img src="immagini/logo.png" alt=""></div>
+            <div class="footermodica"><img src="immagini/logomodica.png" alt=""></div>
+            <div class="footersicilia"><img src="immagini/logosicilia.png" alt=""></div>
+    </div>
     </footer>
     
 </body>

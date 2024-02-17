@@ -1,0 +1,697 @@
+img {
+    max-width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap:50px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+div.card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(232, 216, 196, 50%);
+}
+
+.img-card {
+    width: 40%;
+}
+
+.testocard {
+    width: 50%;
+}
+
+.img-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+  }
+
+  div.button {
+    background-color: rgb(107, 36, 12);
+    border-radius: 27px;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+div a {
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+}
+
+h1.logo {
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    line-height: 1.2;
+    color: white;
+}
+
+img.logo {
+    width: 70px; height: 70px;
+    margin-right: 15px;
+}
+
+div.logo {
+  display: flex;
+}
+
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(107, 36, 12);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 16px;
+    margin-left: 180px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 15px;
+    color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: rgb(208, 173, 72);
+}
+
+header a {
+  text-decoration: none;
+}
+
+div.hero {
+    height: 622px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+img.hero {
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer ul {
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(107, 36, 12);
+    font-size: 16px;
+    margin-top: 200px;
+}
+
+li.testo {
+    font-weight: bold;
+}
+
+div.footercioccolato{
+    width: 55px; height: 55px;
+    margin-right: 10px;
+}
+
+div.footermodica {
+    width: 48px; height: 54px;
+    margin-right: 10px;
+}
+
+div.footersicilia {
+    width: 59px; height: 50px;
+}
+
+div.loghifooter {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+
+h2.titolo {
+    font-family: 'Spectral', serif;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  h2.frase {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    margin-top: -50px;
+  }
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropbtn {
+    color: white;
+    background-color: rgb(107, 36, 12);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(107, 36, 12);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  .dropdown-content a:hover {
+    color: rgb(208, 173, 72);
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testosopra {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Spectral', serif;
+    white-space: nowrap;
+    margin-top: 40px;
+  }
+
+  div.container a {
+    position: relative;
+    display: block;
+    color: #fff;
+  }
+  
+  div.container a:hover:before {
+    content:"";
+    background-color: rgb(107, 36, 12, 0.5);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 273px;
+    height: 273px;
+    margin-top: 40px;
+  }
+
+  div.container img {
+    object-fit: cover;
+    width: 273px; height: 273px;
+    margin-top: 40px;
+}
+
+div.scoprianche {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    max-width: 917px;
+    margin: auto;
+}
+
+section.scoprianche {
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 250px;
+}
+
+div.lineacontesto {
+    position: relative;
+    height: 1px;
+    background-color: rgb(107, 36, 12);
+  }
+
+  div.lineacontesto::after {
+    content: "Scopri anche";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(107, 36, 12);
+    background-color: white;
+    padding: 20px;
+    font-family: 'Spectral', serif;
+  }
+ 
+  div.testohero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  section.hero {
+    background: rgb(107, 36, 12);
+    height: 672px;
+    margin-bottom: 150px;
+    box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 25%);
+}
+
+.ul {
+  display: flex;
+}
+
+.hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+.hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+  height: 32px;
+  width: 32px;
+  top: 16x;
+  right: 16px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+section.testo {
+  max-width: 1030px;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+div.testo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+h1.titoli {
+  font-family: 'Spectral', serif;
+  color: rgb(107, 36, 12);
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+div.varianti {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+div.varianti div {
+  width: 50%; height: auto
+}
+
+section.informazioni {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 150px;
+}
+
+div.lineacontesto {
+  position: relative;
+  height: 1px;
+  background-color: rgb(107, 36, 12);
+}
+
+div.lineacontesto::after {
+  content: "Scopri anche";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 36, 12);
+  background-color: white;
+  padding: 20px;
+  font-family: 'Spectral', serif;
+}
+
+div.lineainfo {
+  position: relative;
+  height: 1px;
+  background-color: rgb(107, 36, 12);
+}
+
+div.lineainfo::after {
+  content: "Informazioni utili";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 36, 12);
+  background-color: white;
+  padding: 20px;
+  font-family: 'Spectral', serif;
+}
+
+div.contenitore {
+  display: flex;
+}
+
+div.informazioni {
+  background-color: rgb(243, 235, 225);
+  border-radius: 10px;
+  max-width: 1075px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 50px;
+  box-shadow: 5px 10px 30px 0 rgba(0, 0, 0, 25%);
+  margin-bottom: 250px;
+}
+
+div.mappa {
+  width: 372px; height: auto;
+  margin-left: 150px;
+}
+
+div.galleriafoto {
+  max-width: 1170px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+div.galleriafoto div {
+  width: 370px; height: 250px;
+}
+
+h1.fotoeventi {
+  font-family: 'Spectral', serif;
+  font-size: 30px;
+  color: rgb(107, 36, 12);
+  white-space: normal;
+  line-height: 1.2;
+}
+
+section.eventi {
+  max-width: 1025px;
+  margin: auto;
+}
+
+div.fotoeventi {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 150px;
+}
+
+div.fotoeventi div {
+  width: 307px; height: 307px;
+}
+
+img.bus {
+  max-width: 100%;
+}
+
+div.comemuoversi {
+  max-width: 1105px;
+  margin: auto;
+}
+
+div.lineamuoversi {
+  position: relative;
+  height: 1px;
+  background-color: rgb(107, 36, 12);
+}
+
+div.lineamuoversi::after {
+  content: "Come muoversi";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 36, 12);
+  background-color: white;
+  padding: 20px;
+  font-family: 'Spectral', serif;
+}
+
+h1.ingredienti {
+  font-family: 'Spectral', serif;
+  font-size: 16px;
+  color: rgb(107, 36, 12);
+}
+
+ul {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+div.ingredienti {
+  margin-top: 65px;
+  margin-left: 100px;
+}
+
+h1.comearrivare {
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: rgb(107, 36, 12);
+}
+
+section.comearrivare {
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+
+div.comearrivare {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.contenitorecomearrivare {
+  background-color: rgb(232, 216, 196, 0.5);
+  width: 330px;
+  padding-bottom: 25px;
+  padding-left: 42px;
+  padding-top: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 30px 0 rgba(0, 0, 0, 25%);
+}
+
+div.lineacomearrivare {
+  position: relative;
+  height: 1px;
+  background-color: rgb(107, 36, 12);
+  margin-bottom: 40px;
+}
+
+div.lineacomearrivare::after {
+  content: "Come arrivare";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(107, 36, 12);
+  background-color: white;
+  padding: 20px;
+  font-family: 'Spectral', serif;
+}
+
+@media (min-width:300px) and (max-width:900px) {
+    section.card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    div.scoprianche {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    div.testosopra {
+        text-align: center;
+    }
+
+    h2.titolo {
+        line-height: 1.2;
+        margin-bottom: 60px;
+        white-space: normal;
+    }
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+  div.container a:hover:before {
+    background: none;
+  }
+
+  .checkbox {
+    display: block;
+  }
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgb(107, 36, 12);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  input[type="checkbox"]:checked ~ nav ul {
+    opacity: 100;
+  }
+
+  .hamburger-lines {
+    opacity: 100;
+  }
+
+  ul li {
+    display: block;
+  }
+
+   .submenu {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin: 0;
+   }
+   div.testo {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 100px;
+}
+
+div.varianti {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: auto;
+  gap: 50px;
+}
+
+div.contenitore {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div.galleriafoto {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div.fotoeventi {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: auto;
+}
+
+section.eventi {
+  max-width: 400px;
+  margin: auto;
+}
+
+div.comearrivare {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  max-width: 400px;
+  margin: auto;
+}
+  }
