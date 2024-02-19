@@ -585,6 +585,10 @@ div.lineacomearrivare::after {
   font-family: 'Spectral', serif;
 }
 
+body {
+  margin: 0;
+}
+
 @media (min-width:300px) and (max-width:900px) {
     section.card {
         display: grid;
@@ -607,8 +611,7 @@ div.lineacomearrivare::after {
     }
 
 footer {
-  display: grid;
-  grid-template-rows: 1fr;
+  flex-direction: column;
 }
 
   div.container a:hover:before {
